@@ -30,13 +30,23 @@ body{
     font-family: "ubuntu", sans-serif;
     font-size: 16px;
 }
+.features-page{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(700px,1fr));
+    text-align: center;
+    line-height: 1.4;
+
+
+
+
+}
 .footer{
     background-color: var(--Very-dark-black-blue);
     border-radius: 0 50px 0 0;
     color:white;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     line-height: 1.4;
 }
 .footer div, .footer h3{
